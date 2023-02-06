@@ -245,6 +245,7 @@
           1,
           1,
           1,
+          1,
           null
         ]
       },
@@ -274,8 +275,27 @@
           1,
           null
         ]
+      },
+      "/Users/BrianHayes/2mod/projects/relational_rails/app/controllers/cars_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/BrianHayes/2mod/projects/relational_rails/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1675657073
+    "timestamp": 1675657460
   }
 }
