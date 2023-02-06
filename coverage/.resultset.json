@@ -244,6 +244,7 @@
           null,
           1,
           1,
+          1,
           null
         ]
       },
@@ -256,7 +257,7 @@
       "/Users/BrianHayes/2mod/projects/relational_rails/app/models/dealership.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -267,15 +268,18 @@
           null
         ]
       },
-      "/Users/BrianHayes/2mod/projects/relational_rails/app/controllers/dealerships_controller.rb": {
+      "/Users/BrianHayes/2mod/projects/relational_rails/app/models/car.rb": {
         "lines": [
           1,
           1,
-          0,
-          null,
-          null,
+          null
+        ]
+      },
+      "/Users/BrianHayes/2mod/projects/relational_rails/app/controllers/cars_controller.rb": {
+        "lines": [
           1,
-          null,
+          1,
+          1,
           null,
           null
         ]
@@ -287,6 +291,6 @@
         ]
       }
     },
-    "timestamp": 1675377129
+    "timestamp": 1675656910
   }
 }
