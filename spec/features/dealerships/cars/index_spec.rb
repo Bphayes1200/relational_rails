@@ -5,7 +5,7 @@ RSpec.describe 'Dealerships car index' do
     dealership_1 = Dealership.create!(name: "BH Ford", city: "Boulder", rank: 1, service_shop: true)
     car_1 = dealership_1.cars.create!(make: "Ford", model: "F150", year: 2014, accident: true, mileage: 80000)
     car_2 = dealership_1.cars.create!(make: "Ford", model: "fusion", year: 2016, accident: true, mileage: 80000)
-
+require 'pry'; binding.pry
     visit "/dealerships/#{dealership_1.id}/cars"
 
     expect(page).to have_content(car_1.make)
