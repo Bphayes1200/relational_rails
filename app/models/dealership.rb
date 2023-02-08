@@ -4,4 +4,8 @@ class Dealership < ApplicationRecord
   def self.order_by_created_at
     order(created_at: :DESC).to_a
   end
+
+  def num_of_cars
+    cars.length
+  end
 end
